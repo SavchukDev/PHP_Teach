@@ -4,17 +4,12 @@
 
 $age = -1;
 
-if($age >= 18 && $age <=59) {
+if ($age >= 18 && $age <= 59) {
     echo "Вам ещё работать и работать";
-}
-else if ($age > 59) {
+} else if ($age > 59) {
     echo 'Пенсия';
 
-}
-
-else if ($age < 0) {
+} else if ($age < 0) {
     echo 'Неизвестный возраст';
-}
-
-else
+} else
     echo 'Вам ещё рано работать';

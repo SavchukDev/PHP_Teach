@@ -5,9 +5,8 @@
 $a = '78';
 $b = 78;
 
-if($a == $b) {
+if ($a === $b) {
     echo 'A ecual to B';
-}
-else{
+} else {
     echo 'Error';
 }

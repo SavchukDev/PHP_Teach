@@ -5,8 +5,8 @@
 $s = 100;
 $t = 2;
 
-$speed_1 = $s / $t;
-echo $speed_1, " км/ч", "<br/>";
+$kilometersPerHour = $s / $t;
+echo $kilometersPerHour.' км/ч', '<br/>';
 
-$speed_2 = ($speed_1 * 1000) / 3600;
-echo $speed_2, " m/sec";
+$metersPerSecond = ($kilometersPerHour * 1000) / 3600;
+echo $metersPerSecond, ' m/sec';

@@ -5,5 +5,12 @@
 $foo = 'bar';
 $bar = 10;
 
-$foo = $bar;
-echo $foo;
+$$foo = 10;
+echo "$foo ${$foo}";
+
+/*
+$a = 'hello';
+$$a = 'World';
+echo "$a ${$a}";
+*/
+

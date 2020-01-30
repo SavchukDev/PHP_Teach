@@ -2,4 +2,5 @@
 
 <?php
 
-echo 'My name is: Phil';
+$name = 'Phil';
+echo "My name is: $name";

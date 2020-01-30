@@ -5,13 +5,10 @@
 $a = '78';
 $b = 78;
 
-if($a == $b) {
+if ($a === $b) {
     echo 'A ecual to B', "<br/>";
-}
-else{
+} else {
     echo 'Error';
 }
 
-var_dump($a);
-echo "<br/>";
-var_dump($b);
+var_dump($a === $b);
