@@ -3,8 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="calc.css" rel="stylesheet">
 </head>
+<link rel="stylesheet" type="text/css" href="calc.css">
 <body>
+<form action="15.php" method="post">
+<div class="form-control">
+    <label for="firstNum">Первое число</label>
+    <input type="text" name="firstNum" class="form-control" id="firstNum">
+</div>
+<div class="form-control">
+    <label for="secondNum">Второе число</label>
+    <input type="text" name="secondNum" class="form-control" id="secondNum">
+
+</div>
+
+<div class="operator">
+    <label for="operation">Операция</label>
+    <select name="operator" class="operation" id="operation">
+        <option value="/">/</option>
+        <option value="*">*</option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+
+    </select>
+
+</div>
+
+<button type="submit" class="button">Посчитать </button>
+
+
 
 </body>
+
+</form>
 </html>
